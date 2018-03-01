@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- Favicon -->
-	<link href="../images/favicon.ico" rel="icon" type="image/x-icon" />
 	<title>Friend Finder</title>
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
@@ -15,13 +13,12 @@
 </head>
 <!-- Orange: F2A438 -->
 <!-- Green: 6BB427 -->
-<body background="../images/ignasi_pattern_s.png">
+<body background="images/ignasi_pattern_s.png">
 
 	<!-- body div -->
 	<div class="container">
 	<!-- Jumbotron -->
-		<div class="jumbotron text-center" style="background-image: url(../images/friendLine.png); background-repeat: round;">
-<!-- 			<img src="../images/friendLine.png"; style="width: 100%; opacity: .4"> -->
+		<div class="jumbotron text-center">
 			<h1 style="font-family: 'Pacifico', cursive; font-size: 100px">Friend Finder</h1>
 			<div class="container">
 				<div class="centered">
@@ -34,8 +31,17 @@
 	</div>
 
 
-	<!-- want footer div? -->
-	<div></div>
+	<!-- Footer -->
+	<footer class="page-footer indigo center-on-small-only pt-0" style="position: fixed; bottom: 0; background-color: #2a2a2a; border-color: #080808; min-height: 50px; width: 100%; border-radius: 4px;">
+	    <div class="container">
+	      <!--First column-->
+	      <div class="col-md-12">
+					<!-- API links -->
+					<div style="text-align: center; padding-bottom: 15px; padding-top: 15px">
+						<a href="http://localhost:3000/api/users">API Friends List</a> | <a href="https://github.com/lryoung9/FriendFinder">GitHub Repo</a>
+					</div>
+	    </div>
+	</footer>
 
 </body>
 </html>
